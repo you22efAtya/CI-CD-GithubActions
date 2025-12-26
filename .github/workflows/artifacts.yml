@@ -1,4 +1,4 @@
-name: Activity Types And filters
+name: Artifact Workflow
 on:
    push:
     branches:
