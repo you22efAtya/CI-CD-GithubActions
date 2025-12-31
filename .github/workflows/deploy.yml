@@ -5,7 +5,7 @@ on:
       - main
       - dev
 env:
-  MONGODB_DB_NAME: gha-demo
+  MONGODB_DB_NAME: Cluster0
 jobs:
   test:
     environment: testing #pNrhehalE65XluHw youssefmohamedyahoocom9_db_user cluster0.dfghjse.mongodb.net
@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Run server
-        run: npm start & npx wait-on http://127.0.0.1:${PORT}
+        run: npm start & npx wait-on http://127.0.0.1:$PORT
       - name: Run tests
         run: npm test
       - name: Output information
