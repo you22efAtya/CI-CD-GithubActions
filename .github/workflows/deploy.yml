@@ -5,7 +5,7 @@ on:
       - main
       - dev
 env:
-  MONGODB_DB_NAME: Cluster0
+  MONGODB_DB_NAME: gha-demo
 jobs:
   test:
     environment: testing #pNrhehalE65XluHw youssefmohamedyahoocom9_db_user cluster0.dfghjse.mongodb.net
