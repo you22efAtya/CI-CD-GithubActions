@@ -1,23 +1,97 @@
 {
-  "numTotalTestSuites": 1,
-  "numPassedTestSuites": 0,
+  "numTotalTestSuites": 5,
+  "numPassedTestSuites": 4,
   "numFailedTestSuites": 1,
   "numPendingTestSuites": 0,
-  "numTotalTests": 0,
-  "numPassedTests": 0,
-  "numFailedTests": 0,
+  "numTotalTests": 4,
+  "numPassedTests": 2,
+  "numFailedTests": 2,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1662469084119,
+  "startTime": 1767327689276,
   "success": false,
   "testResults": [
     {
-      "assertionResults": [],
-      "startTime": 1662469084119,
-      "endTime": 1662469084119,
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should render a button",
+          "status": "passed",
+          "title": "should render a button",
+          "duration": 60,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should show the help area after clicking the button",
+          "status": "passed",
+          "title": "should show the help area after clicking the button",
+          "duration": 75,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1767327691800,
+      "endTime": 1767327691935,
       "status": "passed",
-      "message": "\u001b[0m\u001b[0m\n\u001b[0m\u001b[4m/Users/max/development/teaching/gh-flow/src/components/HelpBox.jsx\u001b[24m\u001b[0m\n\u001b[0m  \u001b[2m5:20\u001b[22m  \u001b[31merror\u001b[39m  'title' is missing in props validation  \u001b[2mreact/prop-types\u001b[22m\u001b[0m\n\u001b[0m  \u001b[2m5:27\u001b[22m  \u001b[31merror\u001b[39m  'text' is missing in props validation   \u001b[2mreact/prop-types\u001b[22m\u001b[0m\n\u001b[0m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m✖ 2 problems (2 errors, 0 warnings)\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m\u001b[22m\u001b[39m\u001b[0m",
-      "name": "/Users/max/development/teaching/gh-flow/src/components/MainContent.test.jsx"
+      "message": "",
+      "name": "E:/Github Actions/CI-CD-GithubActions/src/components/MainContent.test.jsx"
+    },
+    {
+      "assertionResults": [],
+      "startTime": 1767327689276,
+      "endTime": 1767327689276,
+      "status": "passed",
+      "message": "Second-Workflows\\tests\\events-api.spec.js:5:23: Playwright Test did not expect test() to be called here.\nMost common reasons include:\n- You are calling test() in a configuration file.\n- You are calling test() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
+      "name": "E:/Github Actions/CI-CD-GithubActions/Second-Workflows/tests/events-api.spec.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should render a button",
+          "status": "failed",
+          "title": "should render a button",
+          "duration": 24,
+          "failureMessages": [
+            "Cannot read properties of null (reading 'useState')"
+          ],
+          "location": {
+            "line": 14,
+            "column": 27
+          }
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "MainContent"
+          ],
+          "fullName": " MainContent should show the help area after clicking the button",
+          "status": "failed",
+          "title": "should show the help area after clicking the button",
+          "duration": 5,
+          "failureMessages": [
+            "Cannot read properties of null (reading 'useState')"
+          ],
+          "location": {
+            "line": 22,
+            "column": 27
+          }
+        }
+      ],
+      "startTime": 1767327692123,
+      "endTime": 1767327692152,
+      "status": "failed",
+      "message": "",
+      "name": "E:/Github Actions/CI-CD-GithubActions/First-Workflows/src/components/MainContent.test.jsx"
     }
   ]
 }
