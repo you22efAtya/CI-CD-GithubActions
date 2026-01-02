@@ -1,15 +1,15 @@
 {
-  "numTotalTestSuites": 5,
-  "numPassedTestSuites": 4,
-  "numFailedTestSuites": 1,
+  "numTotalTestSuites": 2,
+  "numPassedTestSuites": 2,
+  "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
-  "numTotalTests": 4,
+  "numTotalTests": 2,
   "numPassedTests": 2,
-  "numFailedTests": 2,
+  "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
-  "startTime": 1767327689276,
-  "success": false,
+  "startTime": 1767328615891,
+  "success": true,
   "testResults": [
     {
       "assertionResults": [
@@ -21,7 +21,7 @@
           "fullName": " MainContent should render a button",
           "status": "passed",
           "title": "should render a button",
-          "duration": 60,
+          "duration": 59,
           "failureMessages": []
         },
         {
@@ -32,66 +32,15 @@
           "fullName": " MainContent should show the help area after clicking the button",
           "status": "passed",
           "title": "should show the help area after clicking the button",
-          "duration": 75,
+          "duration": 52,
           "failureMessages": []
         }
       ],
-      "startTime": 1767327691800,
-      "endTime": 1767327691935,
+      "startTime": 1767328618106,
+      "endTime": 1767328618217,
       "status": "passed",
       "message": "",
       "name": "E:/Github Actions/CI-CD-GithubActions/src/components/MainContent.test.jsx"
-    },
-    {
-      "assertionResults": [],
-      "startTime": 1767327689276,
-      "endTime": 1767327689276,
-      "status": "passed",
-      "message": "Second-Workflows\\tests\\events-api.spec.js:5:23: Playwright Test did not expect test() to be called here.\nMost common reasons include:\n- You are calling test() in a configuration file.\n- You are calling test() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.",
-      "name": "E:/Github Actions/CI-CD-GithubActions/Second-Workflows/tests/events-api.spec.js"
-    },
-    {
-      "assertionResults": [
-        {
-          "ancestorTitles": [
-            "",
-            "MainContent"
-          ],
-          "fullName": " MainContent should render a button",
-          "status": "failed",
-          "title": "should render a button",
-          "duration": 24,
-          "failureMessages": [
-            "Cannot read properties of null (reading 'useState')"
-          ],
-          "location": {
-            "line": 14,
-            "column": 27
-          }
-        },
-        {
-          "ancestorTitles": [
-            "",
-            "MainContent"
-          ],
-          "fullName": " MainContent should show the help area after clicking the button",
-          "status": "failed",
-          "title": "should show the help area after clicking the button",
-          "duration": 5,
-          "failureMessages": [
-            "Cannot read properties of null (reading 'useState')"
-          ],
-          "location": {
-            "line": 22,
-            "column": 27
-          }
-        }
-      ],
-      "startTime": 1767327692123,
-      "endTime": 1767327692152,
-      "status": "failed",
-      "message": "",
-      "name": "E:/Github Actions/CI-CD-GithubActions/First-Workflows/src/components/MainContent.test.jsx"
     }
   ]
 }
