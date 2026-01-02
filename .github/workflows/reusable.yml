@@ -29,4 +29,5 @@ jobs:
       - name: Output information
         run: echo "This is a reusable deployment workflow."
       - name: Set Result output
+        id: set-result
         run: echo "step-result=success" >> $GITHUB_OUTPUT
